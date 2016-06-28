@@ -1,4 +1,23 @@
-Instructions
+# H&M arbetsprov
+#### by Henrik Backman
+___
+
+## Getting started
+
+1. Make sure [Node.js](https://nodejs.org/en/) is installed
+1. Run the command ```npm install```
+1. Run the command ```gulp```
+1. Go to [http://localhost:8080/](http://localhost:8080/)
+1. Enjoy!
+
+## About
+I have, as you can see, used the Node.js and the template engine "jade" with SASS and jQuery for my demo. The API I'm using is the free Geolocation API from Google Maps. I'm using Twitters Typeahead.js script for the autocomplete functionality.
+
+When you search you'll see a list of suggested Swedish cities. When pressing enter or choosing one of the suggestions the site will display the city name + some other data if the city is indeed a swedish city. If not, an "error" will occur.
+
+___
+
+### Instructions
 * Fork the repository
 * Create a Feature Branch
 * Implement a simple search function according to wireframes and UI (attached on github)
@@ -8,13 +27,13 @@ Instructions
 * When hitting [ENTER] the selected search value should be saved with date/timestamp beneath the search box (as a search history)
 * The page should be responsive, so that if width of window is changed it should adapt
 * Nothing needs to be saved if the page is reloaded (i.e don’t have to use cookies/database etc)
- 
-What we look at
+
+### What we look at
 * How’s HTML/CSS/JS written?
 * How is it packaged?
 * General sanity check on structure and solution
 * Is there a readme file giving enough instructions to start your solution?
- 
+
 Solve the task as far as you think is necessary. For this specific assignment focus on HTML/CSS, structure and good coding standards rather than advanced JS.
- 
+
 When done push your branch and let us know it’s done, e.g. by a pull request.
