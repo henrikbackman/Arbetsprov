@@ -6,14 +6,12 @@ ___
 
 1. Make sure [Node.js](https://nodejs.org/en/) is installed
 1. Run the command ```npm install```
-1. Run the command ```gulp```
-1. Go to [http://localhost:8080/](http://localhost:8080/)
+1. Run the command ```npm start```
+1. Go to [http://localhost:3000/](http://localhost:3000/)
 1. Enjoy!
 
 ## About
-I have, as you can see, used the Node.js and the template engine "jade" with SASS and jQuery for my demo. The API I'm using is the free Geolocation API from Google Maps. I'm using Twitters Typeahead.js script for the autocomplete functionality.
-
-When you search you'll see a list of suggested Swedish cities. When pressing enter or choosing one of the suggestions the site will display the city name + some other data if the city is indeed a swedish city. If not, an "error" will occur.
+The API I'm using is the free Geolocation API from Google Maps. When you search you'll see a list of suggested Swedish cities. When pressing enter or choosing one of the suggestions the site will display the city name + some other data if the city is indeed a swedish city. If not, an "error" will occur.
 
 ___
 
