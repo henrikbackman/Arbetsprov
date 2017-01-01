@@ -155,30 +155,35 @@ body {
   z-index: 1;
 }
 
-.twitter-typeahead {
+.react-autosuggest__suggestions-container {
+  position: absolute;
+  top: 48px;
   width: 100%;
+  z-index: 1;
 }
 
-.tt-menu {
+.react-autosuggest__suggestions-list {
   background: #8497ae;
   border-radius: 5px;
   color: #b7c1cd;
+  list-style: none;
   margin-top: 3px;
+  padding: 0;
   overflow: hidden;
   width: 100%;
 }
 
-.tt-menu .tt-suggestion {
+.react-autosuggest__suggestions-list .react-autosuggest__suggestion {
   color: #fff;
   padding: 10px 10px 10px 45px;
 }
 
-.tt-menu .tt-suggestion + .tt-suggestion {
+.react-autosuggest__suggestions-list .react-autosuggest__suggestion + .react-autosuggest__suggestion {
   border-top: 1px solid rgba(255,255,255,0.4);
 }
 
-.tt-menu .tt-suggestion:hover,
-.tt-menu .tt-suggestion.tt-cursor {
+.react-autosuggest__suggestions-list .react-autosuggest__suggestion:hover,
+.react-autosuggest__suggestions-list .react-autosuggest__suggestion.react-autosuggest__suggestion--focused {
   background: rgba(255,255,255,0.2);
   cursor: pointer;
 }
@@ -297,11 +302,15 @@ body {
     width: 30px;
   }
 
-  .tt-menu {
+  .react-autosuggest__suggestions-container {
+    top: 68px;
+  }
+
+  .react-autosuggest__suggestions-list {
     border-radius: 8px;
   }
 
-  .tt-menu .tt-suggestion {
+  .react-autosuggest__suggestions-list .react-autosuggest__suggestion {
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 26px;
