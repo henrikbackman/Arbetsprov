@@ -1,5 +1,5 @@
 html,body {
-  font-size: 100%
+  font-size: 100%;
 }
 
 html {
@@ -9,21 +9,21 @@ html {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   line-height: 1;
-  margin: 0
+  margin: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block
+  display: block;
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0
+  border-spacing: 0;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -32,36 +32,36 @@ h1, h2, h3, h4, h5, h6,
   -moz-font-feature-settings: "liga" 1, "dlig" 1;
   -ms-font-feature-settings: "liga" 1, "dlig" 1;
   -o-font-feature-settings: "liga" 1, "dlig" 1;
-  font-feature-settings: "liga" 1, "dlig" 1
+  font-feature-settings: "liga" 1, "dlig" 1;
 }
 
 img,
 svg {
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 input:focus {
-  outline: none
+  outline: none;
 }
 
 input::-ms-clear,
 input::-ms-reveal {
   display: none;
   height: 0;
-  width: 0
+  width: 0;
 }
 
 input::-webkit-search-decoration,
 input::-webkit-search-cancel-button,
 input::-webkit-search-results-button,
 input::-webkit-search-results-decoration {
-  display: none
+  display: none;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 html {
@@ -76,19 +76,19 @@ html {
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 22px
+  line-height: 22px;
 }
 
 html,
 body {
-  min-height: 100%
+  min-height: 100%;
 }
 
 .page-wrap {
   margin: 0 auto;
   max-width: 800px;
   padding: 20px;
-  width: 100%
+  width: 100%;
 }
 
 .site-header .logo {
@@ -98,7 +98,7 @@ body {
   margin: 40px auto 50px;
   overflow: hidden;
   text-indent: -9999px;
-  width: 139px
+  width: 139px;
 }
 
 .search-container {
@@ -115,31 +115,31 @@ body {
   line-height: 28px;
   padding: 10px 0 10px 45px;
   width: 100%;
-  -webkit-appearance: none
+  -webkit-appearance: none;
 }
 
 .search-container input:focus {
-  background-color: rgba(255,255,255,0.08) !important
+  background-color: rgba(255,255,255,0.08) !important;
 }
 
 .search-container input.tt-hint {
-  color: #b7c1cd
+  color: #b7c1cd;
 }
 
 .search-container input::-webkit-input-placeholder {
-  color: #b7c1cd
+  color: #b7c1cd;
 }
 
 .search-container input:-moz-placeholder {
-  color: #b7c1cd
+  color: #b7c1cd;
 }
 
 .search-container input::-moz-placeholder {
-  color: #b7c1cd
+  color: #b7c1cd;
 }
 
 .search-container input:-ms-input-placeholder {
-  color: #b7c1cd
+  color: #b7c1cd;
 }
 
 .search-container label {
@@ -152,11 +152,11 @@ body {
   position: absolute;
   top: 50%;
   width: 20px;
-  z-index: 1
+  z-index: 1;
 }
 
 .twitter-typeahead {
-  width: 100%
+  width: 100%;
 }
 
 .tt-menu {
@@ -165,34 +165,34 @@ body {
   color: #b7c1cd;
   margin-top: 3px;
   overflow: hidden;
-  width: 100%
+  width: 100%;
 }
 
 .tt-menu .tt-suggestion {
   color: #fff;
-  padding: 10px 10px 10px 45px
+  padding: 10px 10px 10px 45px;
 }
 
 .tt-menu .tt-suggestion + .tt-suggestion {
-  border-top: 1px solid rgba(255,255,255,0.4)
+  border-top: 1px solid rgba(255,255,255,0.4);
 }
 
 .tt-menu .tt-suggestion:hover,
 .tt-menu .tt-suggestion.tt-cursor {
   background: rgba(255,255,255,0.2);
-  cursor: pointer
+  cursor: pointer;
 }
 
 #search-results {
   background: rgba(255,255,255,0.2);
   margin: 20px -20px 0;
-  padding: 0 10px
+  padding: 0 10px;
 }
 
 #search-results ul {
   list-style: none;
   margin: 0;
-  padding: 10px 0
+  padding: 10px 0;
 }
 
 #search-results .item {
@@ -202,48 +202,52 @@ body {
   overflow: hidden;
   padding: 10px 30px;
   position: relative;
-  width: calc(100% + 40px)
+  width: calc(100% + 40px);
 }
 
 #search-results .item.error {
   padding-bottom: 20px;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 #search-results .item .location,
 #search-results .item .date,
 #search-results .item .remove {
   display: table-cell;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 #search-results .item .location .city {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 26px;
-  font-weight: 700
+  font-weight: 700;
+  margin: 0;
 }
 
 #search-results .item .location .sub-info {
   font-style: italic;
-  line-height: 19px
+  line-height: 19px;
 }
 
 #search-results .item .date {
-  width: 175px
+  width: 175px;
 }
 
 #search-results .item .remove {
   background: rgba(255,0,0,0.5);
+  border: none;
+  cursor: pointer;
   height: 100%;
+  padding: 0;
   position: absolute;
   right: 10px;
   top: 0;
-  width: 55px
+  width: 55px;
 }
 
 .no-touchevents #search-results .item .remove {
-  opacity: 0
+  opacity: 0;
 }
 
 #search-results .item .remove:after {
@@ -254,73 +258,73 @@ body {
   content: "x";
   height: 24px;
   left: 50%;
-  line-height: 23px;
+  line-height: 22px;
   margin: -12px 0 0 -12px;
   position: absolute;
   text-align: center;
   top: 50%;
-  width: 24px
+  width: 24px;
 }
 
 #search-results .item:hover {
-  background: rgba(255,255,255,0.2)
+  background: rgba(255,255,255,0.2);
 }
 
 .no-touchevents #search-results .item:hover .remove {
-  opacity: 1
+  opacity: 1;
 }
 
 @media (min-width: 650px) {
   .site-header .logo {
-    background-size:277px 70px;
+    background-size: 277px 70px;
     height: 70px;
-    width: 277px
+    width: 277px;
   }
 
   .search-container input {
-    border-radius:8px;
+    border-radius: 8px;
     font-size: 26px;
     font-size: 1.625rem;
     line-height: 38px;
-    padding: 15px 0 15px 80px
+    padding: 15px 0 15px 80px;
   }
 
   .search-container label {
-    background-size:30px 30px;
+    background-size: 30px 30px;
     height: 30px;
     left: 25px;
     margin-top: -15px;
-    width: 30px
+    width: 30px;
   }
 
   .tt-menu {
-    border-radius:8px
+    border-radius: 8px;
   }
 
   .tt-menu .tt-suggestion {
-    font-size:20px;
+    font-size: 20px;
     font-size: 1.25rem;
     line-height: 26px;
-    padding-left: 80px
+    padding-left: 80px;
   }
 
   #search-results {
-    margin-top:60px;
-    padding: 0 20px
+    margin-top: 60px;
+    padding: 0 20px;
   }
 
   #search-results .item {
-    margin:0;
+    margin: 0;
     padding: 10px;
-    width: 100%
+    width: 100%;
   }
 
   #search-results .item .date {
-    width:190px
+    width: 190px;
   }
 
   #search-results .item .remove {
-    right:0;
-    width: 60px
+    right: 0;
+    width: 60px;
   }
 }
